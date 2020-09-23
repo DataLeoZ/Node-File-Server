@@ -1,5 +1,5 @@
 /**
- * 根据请求，转换为本地文件。根据安全策略，删除前后 /，移除连续 .
+ * File Path Convert | 根据请求，转换为本地文件。根据安全策略，删除前后 /，移除连续 .
  * @param {*} url
  */
 module.exports.getFile = function (url) {

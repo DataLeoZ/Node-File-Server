@@ -53,7 +53,7 @@ module.exports.responseFile = function (response, file) {
 
 /**
  * 遍历目录并输出
- * @param {*} res
+ * @param {*} response
  * @param {*} url
  * @param {*} file
  */
