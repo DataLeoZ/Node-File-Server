@@ -7,6 +7,12 @@ if you want to mapping any local folder in this server content, try:
 ```
 ln -s ~/Documents docs(your folder path)  
 ```
+## Steps
+run npm link use stript
+```
+npm link
+file-server
+```
 
 ## Features
 1. [x] File reading ( 20+ Type Support ) | 文件内容查看 
