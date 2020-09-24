@@ -1,0 +1,28 @@
+{
+  "name": "node-file-server",
+  "version": "1.0.0",
+  "description": "This is a file server based on Node.js. It can help you serve static file, SPA or static site.",
+  "main": "server.js",
+  "bin": {
+    "file-server": "./bin/shell.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/runzezhang/node-file-server.git"
+  },
+  "keywords": [],
+  "author": "runze.zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/runzezhang/node-file-server/issues"
+  },
+  "homepage": "https://github.com/runzezhang/node-file-server#readme",
+  "dependencies": {
+    "open": "^7.2.1",
+    "yargs": "^16.0.3"
+  }
+}

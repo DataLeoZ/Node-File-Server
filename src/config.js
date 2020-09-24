@@ -2,6 +2,7 @@
  * config
  */
 module.exports = {
+    host: 'localhost',
     baseDir: process.env.baseDir || './', // 静态资源目录
     defaultMime: 'application/octet-stream', // 默认类型，文件下载的数据流
     port: 8000,
