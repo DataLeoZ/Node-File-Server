@@ -1,4 +1,7 @@
 # Node File Server
+
+![](https://img.shields.io/badge/language-JavaScript-blue.svg) ![](https://img.shields.io/badge/version-v1.0.0-green)
+
 This is a file server based on Node.js. It can help you serve static file, SPA or static site.
 
 > Node.js file system API: https://nodejs.org/api/fs.html
