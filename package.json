@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/runzezhang/node-file-server/issues"
   },
-  "homepage": "https://github.com/runzezhang/node-file-server#readme"
+  "homepage": "https://github.com/runzezhang/node-file-server#readme",
+  "dependencies": {
+    "open": "^7.2.1",
+    "yargs": "^16.0.3"
+  }
 }

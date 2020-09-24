@@ -2,18 +2,17 @@
 
 const yargs = require('yargs');
 const config = require('./config.js');
-const pkg = require('../package.json');
-const StaticServer = require('../src/staticServer');
+const package = require('../package.json');
+const Server = require('../src/server');
 
 const options = yargs
-    .version(pkg.name + '@' + pkg.version)
+    .version(package.name + '@' + package.version)
     .usage('file-server [options]')
-    .option('p', { alias: 'baseDir', describe: '设置服务器端口号', type: 'number', default: config.port })
-    .option('o', { alias: 'openbrowser', describe: '是否打开浏览器', type: 'boolean', default: config.openbrowser })
-    .option('n', { alias: 'host', describe: '设置主机名', type: 'string', default: config.host })
-    .option('v', { alias: 'version', type: 'string' })
-    .example('file-server -p [port] -o [address]', 'file-server -p 8000 -o localhost 在根目录开启监听8000端口的静态服务器')
+    .option('port', { alias: 'p', describe: 'Set port', type: 'number', default: config.port })
+    .option('host', { alias: 'o', describe: 'Set host', type: 'string', default: config.host })
+    .option('showDirectory', { alias: 'd', describe: 'Set is show Directory', type: 'boolean', default: config.showDirectory })
+    .example('file-server -port [port] -host [address]', 'file-server -port 8000 -host localhost')
     .help('h').argv;
 
-const server = new StaticServer(options);
+const server = new Server(options);
 server.start();
