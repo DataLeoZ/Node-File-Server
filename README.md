@@ -36,10 +36,5 @@ Examples:
 1. [x] File Stream
 1. [x] Catch Error
 1. [ ] Cache
-1. [ ] 前后端分离（API + 页面）
-1. [ ] 服务器端渲染（模块渲染）
-1. [ ] 跨域（对外提供 API，jsonp等）
-1. [ ] 参数配置（cli）
-1. [ ] 本地调试
-1. [ ] 访问日志
-1. [ ] 代理第三方服务 proxy
+1. [x] Command Script
+1. [ ] Local Debug
